@@ -1,8 +1,16 @@
 /* Add CSS Styling */
 
+/* Mistake here:
 *{
+Need to put "" for DejaVu Sans
+Need to put RGB Values instead of naming colors
     font-family: Verdana, DejaVu Sans, sans-serif;
+} 
+    
+.cool{
+    font-size:24px;
 }
+*/
 
 #number-2{
     color:blue;
@@ -11,13 +19,16 @@
 
 #number-4{
     background-color: lightgreen;
-    font-size:24px;
+    /* not needed if we add another class for the fix-font-size:24px; */
     font-weight:bold;
 }
 
 .odd{
     background-color: lightpink;
+    /* Correction */
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
-.cool{
+
+.fix-font-size{
     font-size:24px;
 }
