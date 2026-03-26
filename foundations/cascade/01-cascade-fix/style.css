@@ -36,8 +36,10 @@ div.text {
   font-weight: 100;
 }
 
+/* Could use div .child as well */
 .text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
+
