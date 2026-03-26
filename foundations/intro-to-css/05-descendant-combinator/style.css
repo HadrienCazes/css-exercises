@@ -6,3 +6,12 @@ div p{
     font-size:20px;
     text-align: center;
 }
+
+/* Possible to do it with class selectors instead of HTML tag for more precision */
+
+/* .container .text{
+    background-color: yellow;
+    color:red;
+    font-size:20px;
+    text-align: center;
+} */
